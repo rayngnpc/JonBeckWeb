@@ -181,6 +181,7 @@ if ('IntersectionObserver' in window) {
 
 function setActiveNavLink() {
     const currentPath = window.location.pathname;
+    const currentPage = currentPath.split('/').pop(); // Get just the filename (e.g., 'about.html')
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
 
     // Remove active class from all links
@@ -191,8 +192,11 @@ function setActiveNavLink() {
     // Set active class based on current page
     navLinks.forEach(link => {
         const href = link.getAttribute('href');
-        if (href && (href === currentPath || href === currentPath.substring(1))) {
-            link.classList.add('active');
+        if (href) {
+            const linkPage = href.split('/').pop(); // Get just the filename from href
+            if (linkPage === currentPage) {
+                link.classList.add('active');
+            }
         }
     });
 }
