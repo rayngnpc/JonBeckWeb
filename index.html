@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Beck Photography - Every photo tells a story</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for stars and icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts (Playfair Display Black Italic + Lato ExtraBold Italic + Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="#home">
+                <div class="logo-container">
+                    <img src="images/Frame.png" alt="Jon Beck" class="logo-img">
+                    <span class="brand-text">JON BECK</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-center mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="workshops.html">Workshops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                </ul>
+                <a class="btn contact-btn ms-auto" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+        <div class="container-xxl">
+            <div class="row gx-5 position-relative">
+                <div class="col-lg-12">
+                    <div class="hero-image-wrapper position-relative">
+                        <img src="images/landscape/Brian-Paez---31319783.jpg" alt="Jon Beck Photography" class="img-fluid w-100">
+                        <div class="hero-text-overlay">
+                            <h1 class="hero-title">
+                                Every photo tells a story—<br>but with a difference.
+                            </h1>
+                            <button class="btn btn-outline-light btn-sm mt-4" style="border-color: #ffc107; background-color: transparent; color: #ffc107; padding: 0.9rem 2.2rem; border-width: 2px; font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; transition: all 0.4s ease; font-family: 'Lato', sans-serif; position: relative; overflow: hidden;" onmouseover="this.style.backgroundColor='#ffc107'; this.style.color='#2c2c2c'; this.style.boxShadow='0 6px 20px rgba(255, 193, 7, 0.4)';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#ffc107'; this.style.boxShadow='none';">View Portfolio</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section bg-light py-5">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <p class="about-text text-muted fs-6 lh-lg">
+                        Jon Beck is an international award-winning photographer specializing in fine art, portraits, and landscape photography. His fresh interior perspective captures everything light and detail to create iconic images.
+                    </p>
+                    <button class="btn btn-outline-dark btn-sm mt-3">Explore Portfolio</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio-section py-5" id="portfolio">
+        <div class="container-xxl">
+            <div class="text-center mb-5">
+                <h2 class="portfolio-title mb-2">Our Portfolio</h2>
+                <h3 class="portfolio-subtitle mb-3">Featured Work</h3>
+                <p class="text-muted">A curated selection of iconic images from Australia, diverse landscapes and the artistic narrative of our people.</p>
+            </div>
+
+            <div class="row g-4 mb-5">
+                <!-- Street Photography -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-wrapper overflow-hidden rounded">
+                            <img src="images/street/BEN-WRIGHT_01_9---Window-Shoppingedi.jpg" alt="Street Photography" class="img-fluid portfolio-img">
+                        </div>
+                        <h4 class="mt-4 mb-3 text-center fw-bold">Street</h4>
+                        <p class="text-muted text-center small">Unique images that tell a raw and unscripted landscape are priceless and all.</p>
+                    </div>
+                </div>
+
+                <!-- Landscapes -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-wrapper overflow-hidden rounded">
+                            <img src="images/landscape/James-Richards-30492613-BUNKER-SUN-RAYS.jpg" alt="Landscapes Photography" class="img-fluid portfolio-img">
+                        </div>
+                        <h4 class="mt-4 mb-3 text-center fw-bold">Landscapes</h4>
+                        <p class="text-muted text-center small">Capturing landscapes light and moment featured landscape and soft scenes to be beautiful meadows.</p>
+                    </div>
+                </div>
+
+                <!-- Building -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-wrapper overflow-hidden rounded">
+                            <img src="images/buildings/IMGP3477.jpg" alt="Building Photography" class="img-fluid portfolio-img">
+                        </div>
+                        <h4 class="mt-4 mb-3 text-center fw-bold">Building</h4>
+                        <p class="text-muted text-center small">Iconic images that capture the moment, property in events form and art in a story.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <button class="btn btn-outline-dark btn-sm">Explore All Galleries</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section bg-light py-5" id="testimonials">
+        <div class="container-xxl">
+            <div class="text-center mb-5">
+                <h2 class="testimonial-title mb-3">What My Clients Are<br>Saying</h2>
+                <p class="text-muted">Building trust and maintaining customer loyalty through exceptional service is at the heart of our work.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Testimonial 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card text-center">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <div class="testimonial-avatar mb-3">
+                            <img src="images/clients/Eleanor Medina.jpg" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                        </div>
+                        <h5 class="fw-bold mb-1">Eleanor Medina</h5>
+                        <p class="text-muted small mb-3">Interior Designer</p>
+                        <p class="testimonial-text text-muted small lh-lg">
+                            "Jon's work is a word. He has a clear ability to capture both the prominence of a landscape and the quiet element of moments. His artistic tone became a necessary and excellent piece of personal design project."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card text-center">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <div class="testimonial-avatar mb-3">
+                            <img src="images/clients/Marcus Tan.jpg" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                        </div>
+                        <h5 class="fw-bold mb-1">Marcus Tan</h5>
+                        <p class="text-muted small mb-3">Interior Design Director at Prism Collective</p>
+                        <p class="testimonial-text text-muted small lh-lg">
+                            "Collaborating with Jon for our hypothesis provides provides was a strong sight. We are in a luxury style, the attention with art absolutely put custom thought out abstract to us and better. Clearly understood that is an nation site where life flows."
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="testimonial-card text-center">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <div class="testimonial-avatar mb-3">
+                            <img src="images/clients/Isabella Rossi.jpg" alt="Client" class="rounded-circle" style="width: 60px; height: 60px; object-fit: cover;">
+                        </div>
+                        <h5 class="fw-bold mb-1">Isabella Rossi</h5>
+                        <p class="text-muted small mb-3">Private Art Collector</p>
+                        <p class="testimonial-text text-muted small lh-lg">
+                            "So an collector, I've spent countless galleries and met photographer from around the world and let's photograph remarkable brand them. Each image tells story and exudes an elegant. His work doesn't disappoint me."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section bg-dark text-light py-5">
+        <div class="container-xxl">
+            <!-- Logo and branding row -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="footer-brand mb-3" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; width: fit-content;">
+                        <img src="images/Frame.png" alt="Jon Beck" style="height: 50px; filter: brightness(0) invert(1);">
+                        <p class="text-white fw-bold" style="font-size: 0.9rem; margin: 0; letter-spacing: 0.05em; font-family: 'Poppins', sans-serif;">JON BECK</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content row -->
+            <div class="row mb-5">
+                <!-- Address and Contact -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="footer-contact">
+                        <h6 class="fw-bold mb-3">Address:</h6>
+                        <p class="small text-white">Level 1, 265 Pittwater Road<br>Nowhere 2100</p>
+                        
+                        <h6 class="fw-bold mt-4 mb-3">Contact:</h6>
+                        <p class="small text-white">0411 132 843<br><a href="mailto:info@JBphotography.com" class="text-white text-decoration-none">info@JBphotography.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Portfolio</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none small">Workshops</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none small">About Us</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none small">Shop Art</a></li>
+                        <li class="mb-2"><a href="#" class="text-white text-decoration-none small">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Follow</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-light opacity-10">
+
+            <!-- Footer bottom row -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p class="small text-white mb-0">© 2025 Jon Beck Photography. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex gap-3 justify-content-md-end">
+                        <a href="#" class="small text-white text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="small text-white text-decoration-none">Terms of Use</a>
+                        <a href="#" class="small text-white text-decoration-none">Cookie Preferences</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <!-- Custom JavaScript for enhanced interactions -->
+    <script>
+        // Hide loader when page is fully loaded
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('pageLoader').classList.add('hidden');
+            }, 500);
+        });
+        
+        // Add smooth scrolling and enhanced animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for all anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Add scroll effect to navbar
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.custom-navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.backgroundColor = 'rgba(214, 214, 214, 0.95)';
+                    navbar.style.backdropFilter = 'blur(10px)';
+                } else {
+                    navbar.style.backgroundColor = 'var(--panel-gray)';
+                    navbar.style.backdropFilter = 'none';
+                }
+            });
+            
+            // Add intersection observer for fade-in animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all sections and cards
+            document.querySelectorAll('section, .portfolio-card, .testimonial-card').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

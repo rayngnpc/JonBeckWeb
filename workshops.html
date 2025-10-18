@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Workshops & Tours - Jon Beck</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-container">
+                    <img src="images/Frame.png" alt="Jon Beck" class="logo-img">
+                    <span class="brand-text">JON BECK</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-center mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="workshops.html">Workshops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                </ul>
+                <a class="btn contact-btn ms-auto" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header-section py-5" style="background: linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 50%, #8b7db8 100%); position: relative; overflow: hidden;">
+        <svg style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; opacity: 0.3; pointer-events: none;" viewBox="0 0 1200 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="1200" height="200" fill="url(#grid)"/>
+        </svg>
+        <div class="container-xxl" style="position: relative; z-index: 2;">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="hero-title mb-4" style="color: #ffffff; text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);">Photography Workshops & Tours</h1>
+                    <p class="lead" style="font-size: 1.2rem; font-family: 'Lato', sans-serif; font-style: italic; color: rgba(255, 255, 255, 0.95);">
+                        Join Jon Beck on exclusive photography tours across Australia
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTRO SECTION -->
+    <section class="intro-section py-5" style="background-color: #ffffff;">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-10 mx-auto text-center mb-5">
+                    <h2 class="section-title mb-4" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #4a4a6a; font-style: italic;">
+                        Learn & Adventure
+                    </h2>
+                    <p style="font-size: 1.1rem; font-family: 'Lato', sans-serif; color: #555555; line-height: 1.9;">
+                        Our photography workshops and tours are fantastic opportunities to learn while joining Jon on adventures to some of the world's most breathtaking locations. With years of shooting in exotic regions, Jon's knowledge will guide you to spectacular locations while providing unique insights into his photographic process and digital workflow.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORKSHOPS SECTION -->
+    <section class="workshops-section py-5" style="background-color: #b8b8b8;">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #8b7db8; font-style: italic;">
+                        Upcoming Tours
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Wild Tasmania Tour -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="workshop-card" style="background-color: #ffffff; border-radius: 0; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.4s ease; height: 100%; display: flex; flex-direction: column;">
+                        <div class="workshop-header" style="background: linear-gradient(135deg, #2c2c2c 0%, #4a4a6a 100%); padding: 2rem; color: #ffffff; text-align: center;">
+                            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; font-style: italic; margin-bottom: 0.5rem;">Wild Tasmania</h3>
+                            <p style="font-size: 0.9rem; margin: 0; font-family: 'Lato', sans-serif;">5 Day Photography Tour</p>
+                        </div>
+                        <div class="workshop-body" style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                            <div class="workshop-details" style="margin-bottom: 1.5rem;">
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Dates:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">23 - 27 March 2030</p>
+                                </div>
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Participants:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">Limited to 6-8 people</p>
+                                </div>
+                                <div>
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Price:</strong></p>
+                                    <p style="font-size: 1.3rem; color: #ffc107; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">$1,150</p>
+                                </div>
+                            </div>
+                            <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; margin-bottom: 1.5rem; flex-grow: 1;">
+                                Explore Tasmania's stunning wilderness and iconic landscapes. Perfect for capturing dramatic natural beauty and unique lighting conditions.
+                            </p>
+                            <div style="display: flex; gap: 0.5rem; margin-top: auto;">
+                                <span style="display: inline-block; background-color: #f8f8f8; padding: 0.4rem 0.8rem; border-radius: 0; font-size: 0.8rem; color: #666666; font-family: 'Lato', sans-serif;"><i class="fas fa-star" style="color: #ffc107; margin-right: 0.3rem;"></i>Limited Spots</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ballarat Tour -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="workshop-card" style="background-color: #ffffff; border-radius: 0; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.4s ease; height: 100%; display: flex; flex-direction: column;">
+                        <div class="workshop-header" style="background: linear-gradient(135deg, #2c2c2c 0%, #4a4a6a 100%); padding: 2rem; color: #ffffff; text-align: center;">
+                            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; font-style: italic; margin-bottom: 0.5rem;">Character of Ballarat</h3>
+                            <p style="font-size: 0.9rem; margin: 0; font-family: 'Lato', sans-serif;">5 Day Photography Tour</p>
+                        </div>
+                        <div class="workshop-body" style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                            <div class="workshop-details" style="margin-bottom: 1.5rem;">
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Dates:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">2 - 17 August 2030</p>
+                                </div>
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Participants:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">Limited to 6-8 people</p>
+                                </div>
+                                <div>
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Price:</strong></p>
+                                    <p style="font-size: 1.3rem; color: #ffc107; font-family: 'Poppins', sans-serif; font-weight: 700; margin: 0;">$1,150</p>
+                                </div>
+                            </div>
+                            <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; margin-bottom: 1.5rem; flex-grow: 1;">
+                                Discover the character and heritage of Ballarat. Learn to capture architecture, people, and the stories within historic landscapes.
+                            </p>
+                            <div style="display: flex; gap: 0.5rem; margin-top: auto;">
+                                <span style="display: inline-block; background-color: #f8f8f8; padding: 0.4rem 0.8rem; border-radius: 0; font-size: 0.8rem; color: #666666; font-family: 'Lato', sans-serif;"><i class="fas fa-star" style="color: #ffc107; margin-right: 0.3rem;"></i>Limited Spots</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sydney Tour (SOLD OUT) -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="workshop-card" style="background-color: #ffffff; border-radius: 0; overflow: hidden; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); transition: all 0.4s ease; height: 100%; display: flex; flex-direction: column; opacity: 0.7;">
+                        <div class="workshop-header" style="background: linear-gradient(135deg, #8b7db8 0%, #a89ac7 100%); padding: 2rem; color: #ffffff; text-align: center;">
+                            <h3 style="font-family: 'Playfair Display', serif; font-size: 1.8rem; font-style: italic; margin-bottom: 0.5rem;">Sydney Seascapes</h3>
+                            <p style="font-size: 0.9rem; margin: 0; font-family: 'Lato', sans-serif;">1 Day Photography Tour</p>
+                        </div>
+                        <div class="workshop-body" style="padding: 2rem; flex-grow: 1; display: flex; flex-direction: column;">
+                            <div class="workshop-details" style="margin-bottom: 1.5rem;">
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Dates:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">6th July 2030</p>
+                                </div>
+                                <div style="margin-bottom: 1rem;">
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Participants:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">4-6 people only</p>
+                                </div>
+                                <div>
+                                    <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-bottom: 0.3rem;"><strong>Location:</strong></p>
+                                    <p style="font-size: 1rem; color: #333333; font-family: 'Lato', sans-serif; margin: 0;">Sydney, Australia</p>
+                                </div>
+                            </div>
+                            <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; margin-bottom: 1.5rem; flex-grow: 1;">
+                                An intimate one-day workshop capturing Sydney's iconic coastal landscapes and seascapes.
+                            </p>
+                            <div style="display: flex; gap: 0.5rem; margin-top: auto;">
+                                <span style="display: inline-block; background-color: #e0e0e0; padding: 0.4rem 0.8rem; border-radius: 0; font-size: 0.8rem; color: #888888; font-family: 'Lato', sans-serif;"><i class="fas fa-lock" style="color: #999999; margin-right: 0.3rem;"></i>Sold Out</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT'S INCLUDED SECTION -->
+    <section class="included-section py-5" style="background-color: #ffffff;">
+        <div class="container-xxl">
+            <div class="row mb-5">
+                <div class="col-lg-10 mx-auto text-center">
+                    <h2 class="section-title mb-4" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #4a4a6a; font-style: italic;">
+                        What's Included
+                    </h2>
+                    <p style="font-size: 1.05rem; font-family: 'Lato', sans-serif; color: #555555; line-height: 1.9;">
+                        Every workshop includes professional guidance, insights into Jon's creative process, and access to spectacular locations you won't find on your own.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="included-item p-4" style="background-color: #f8f8f8; border-left: 4px solid #ffc107;">
+                        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                            <i class="fas fa-camera" style="color: #ffc107; margin-right: 0.5rem;"></i>Expert Guidance
+                        </h5>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; margin: 0;">Learn from award-winning photographer Jon Beck with 15+ years of professional experience.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="included-item p-4" style="background-color: #f8f8f8; border-left: 4px solid #ffc107;">
+                        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                            <i class="fas fa-location-dot" style="color: #ffc107; margin-right: 0.5rem;"></i>Spectacular Locations
+                        </h5>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; margin: 0;">Access to breathtaking, carefully selected locations perfect for memorable photography.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="included-item p-4" style="background-color: #f8f8f8; border-left: 4px solid #ffc107;">
+                        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                            <i class="fas fa-book" style="color: #ffc107; margin-right: 0.5rem;"></i>Creative Process
+                        </h5>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; margin: 0;">Unique insights into Jon's photographic workflow and digital processing techniques.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="included-item p-4" style="background-color: #f8f8f8; border-left: 4px solid #ffc107;">
+                        <h5 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                            <i class="fas fa-users" style="color: #ffc107; margin-right: 0.5rem;"></i>Small Groups
+                        </h5>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; margin: 0;">Limited to 4-8 participants for personalized attention and quality instruction.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section py-5" style="background-color: #b8b8b8;">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4" style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #ffffff; font-style: italic;">
+                        Reserve Your Spot Today
+                    </h2>
+                    <p class="mb-4" style="font-size: 1.1rem; color: #ffffff; font-family: 'Lato', sans-serif;">
+                        Limited spots available. Contact us for more information and booking
+                    </p>
+                    <a href="contact.html" class="btn btn-outline-light" style="border-color: #4a4a6a; color: #ffffff; padding: 0.9rem 2.2rem; border-width: 2px; font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; transition: all 0.4s ease; font-family: 'Lato', sans-serif; background: linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 100%); border-radius: 4px; box-shadow: 0 2px 8px rgba(74, 74, 106, 0.2); position: relative; overflow: hidden;" onmouseover="this.style.background='linear-gradient(135deg, #8b7db8 0%, #4a4a6a 100%)'; this.style.boxShadow='0 8px 20px rgba(74, 74, 106, 0.35)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.background='linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 100%)'; this.style.boxShadow='0 2px 8px rgba(74, 74, 106, 0.2)'; this.style.transform='translateY(0)';">Inquire Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section bg-dark text-light py-5">
+        <div class="container-xxl">
+            <!-- Logo and branding row -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="footer-brand mb-3" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; width: fit-content;">
+                        <img src="images/Frame.png" alt="Jon Beck" style="height: 50px; filter: brightness(0) invert(1);">
+                        <p class="text-white fw-bold" style="font-size: 0.9rem; margin: 0; letter-spacing: 0.05em; font-family: 'Poppins', sans-serif;">JON BECK</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content row -->
+            <div class="row mb-5">
+                <!-- Address and Contact -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="footer-contact">
+                        <h6 class="fw-bold mb-3">Address:</h6>
+                        <p class="small text-white">Level 1, 265 Pittwater Road<br>Nowhere 2100</p>
+                        
+                        <h6 class="fw-bold mt-4 mb-3">Contact:</h6>
+                        <p class="small text-white">0411 132 843<br><a href="mailto:info@JBphotography.com" class="text-white text-decoration-none">info@JBphotography.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Portfolio</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="workshops.html" class="text-white text-decoration-none small">Workshops</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white text-decoration-none small">About Us</a></li>
+                        <li class="mb-2"><a href="shop.html" class="text-white text-decoration-none small">Shop Art</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none small">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Follow</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-light opacity-10">
+
+            <!-- Footer bottom row -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p class="small text-white mb-0">© 2025 Jon Beck Photography. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex gap-3 justify-content-md-end">
+                        <a href="#" class="small text-white text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="small text-white text-decoration-none">Terms of Use</a>
+                        <a href="#" class="small text-white text-decoration-none">Cookie Preferences</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script>
+        // Hide loader when page is fully loaded
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('pageLoader').classList.add('hidden');
+            }, 500);
+        });
+        
+        // Add smooth scrolling and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for all anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+            
+            // Add scroll effect to navbar
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.custom-navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.backgroundColor = 'rgba(214, 214, 214, 0.95)';
+                    navbar.style.backdropFilter = 'blur(10px)';
+                } else {
+                    navbar.style.backgroundColor = 'var(--panel-gray)';
+                    navbar.style.backdropFilter = 'none';
+                }
+            });
+            
+            // Add fade-in animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all sections
+            document.querySelectorAll('section').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>

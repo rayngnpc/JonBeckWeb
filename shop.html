@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Limited Edition Prints - Jon Beck Photography</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&family=Lato:ital,wght@0,400;0,700;0,900;1,700;1,900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Page Loader -->
+    <div class="page-loader" id="pageLoader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container-fluid px-5">
+            <a class="navbar-brand" href="index.html">
+                <div class="logo-container">
+                    <img src="images/Frame.png" alt="Jon Beck" class="logo-img">
+                    <span class="brand-text">JON BECK</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav nav-center mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="workshops.html">Workshops</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+                </ul>
+                <a class="btn contact-btn ms-auto" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header-section py-5" style="background: linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 50%, #8b7db8 100%); position: relative; overflow: hidden;">
+        <svg style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; width: 100%; height: 100%; opacity: 0.3; pointer-events: none;" viewBox="0 0 1200 200" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+                    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+                </pattern>
+            </defs>
+            <rect width="1200" height="200" fill="url(#grid)"/>
+        </svg>
+        <div class="container-xxl" style="position: relative; z-index: 2;">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h1 class="hero-title mb-4" style="color: #ffffff; text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.5);">Limited Edition Prints</h1>
+                    <p class="lead" style="font-size: 1.2rem; font-family: 'Lato', sans-serif; font-style: italic; color: rgba(255, 255, 255, 0.95);">
+                        Museum-grade photography art hand-signed and numbered by Jon Beck
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRINTS INTRO SECTION -->
+    <section class="prints-intro py-5" style="background-color: #ffffff;">
+        <div class="container-xxl">
+            <div class="row mb-5">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center mb-4" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #4a4a6a; font-style: italic;">
+                        Premium Art Prints
+                    </h2>
+                    <p style="font-size: 1.1rem; font-family: 'Lato', sans-serif; color: #555555; line-height: 1.9; text-align: center;">
+                        Each Limited Edition Print is individually produced to the highest possible standards using world-leading photographic paper – Fujiflex Crystal Archive. Fujiflex is an ultra high gloss, museum-grade photographic paper with archival properties exceeding 40 years. Hand-signed, titled and numbered by Jon, these prints are available in editions of 50, 100 or 250.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRINT OPTIONS SECTION -->
+    <section class="print-options py-5" style="background-color: #b8b8b8;">
+        <div class="container-xxl">
+            <div class="row mb-5">
+                <div class="col-12 text-center">
+                    <h2 class="section-title" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #8b7db8; font-style: italic;">
+                        Why Choose Jon Beck Prints?
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Unframed Prints -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="print-option-card" style="background-color: #ffffff; padding: 2.5rem; text-align: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); height: 100%; display: flex; flex-direction: column;">
+                        <div style="font-size: 3rem; color: #ffc107; margin-bottom: 1rem;">
+                            <i class="fas fa-image"></i>
+                        </div>
+                        <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; color: #333333; margin-bottom: 1rem;">Unframed Prints</h3>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; flex-grow: 1; margin-bottom: 1.5rem;">
+                            Museum-grade Fujiflex paper with FREE worldwide shipping. Delivered in 2-3 weeks. Perfect for custom framing.
+                        </p>
+                        <div style="background-color: #f8f8f8; padding: 1rem; border-radius: 0;">
+                            <p style="font-size: 0.9rem; color: #888888; margin-bottom: 0.3rem; font-family: 'Lato', sans-serif;">Starting from</p>
+                            <p style="font-size: 1.5rem; color: #ffc107; font-weight: 700; margin: 0; font-family: 'Poppins', sans-serif;">Contact for pricing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Museum Framed -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="print-option-card" style="background-color: #ffffff; padding: 2.5rem; text-align: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); height: 100%; display: flex; flex-direction: column;">
+                        <div style="font-size: 3rem; color: #ffc107; margin-bottom: 1rem;">
+                            <i class="fas fa-frame"></i>
+                        </div>
+                        <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; color: #333333; margin-bottom: 1rem;">Museum-Grade Framing</h3>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; flex-grow: 1; margin-bottom: 1.5rem;">
+                            Custom-made frames with museum-quality materials. Conservation acrylic eliminates harmful UV rays. 4-6 week delivery.
+                        </p>
+                        <div style="background-color: #f8f8f8; padding: 1rem; border-radius: 0;">
+                            <p style="font-size: 0.9rem; color: #888888; margin-bottom: 0.3rem; font-family: 'Lato', sans-serif;">Premium option</p>
+                            <p style="font-size: 1.5rem; color: #ffc107; font-weight: 700; margin: 0; font-family: 'Poppins', sans-serif;">Inquire</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certificate -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="print-option-card" style="background-color: #ffffff; padding: 2.5rem; text-align: center; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); height: 100%; display: flex; flex-direction: column;">
+                        <div style="font-size: 3rem; color: #ffc107; margin-bottom: 1rem;">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 style="font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; color: #333333; margin-bottom: 1rem;">Certificate of Authenticity</h3>
+                        <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.7; flex-grow: 1; margin-bottom: 1.5rem;">
+                            Every print is hand-signed, registered, and comes with a Certificate of Authenticity guaranteeing its provenance and value.
+                        </p>
+                        <div style="background-color: #f8f8f8; padding: 1rem; border-radius: 0;">
+                            <p style="font-size: 0.9rem; color: #888888; margin-bottom: 0.3rem; font-family: 'Lato', sans-serif;">Included with all prints</p>
+                            <p style="font-size: 1.3rem; color: #4a4a6a; font-weight: 700; margin: 0; font-family: 'Poppins', sans-serif;"><i class="fas fa-check" style="color: #ffc107;"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INVESTMENT VALUE SECTION -->
+    <section class="investment-section py-5" style="background-color: #ffffff;">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <h2 class="section-title text-center mb-5" style="font-family: 'Playfair Display', serif; font-size: 2.5rem; color: #4a4a6a; font-style: italic;">
+                        Limited Edition Details
+                    </h2>
+
+                    <div class="row g-4 mb-5">
+                        <div class="col-lg-6">
+                            <div style="background-color: #f8f8f8; padding: 2rem; border-left: 4px solid #ffc107;">
+                                <h4 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                                    <i class="fas fa-chart-line" style="color: #ffc107; margin-right: 0.5rem;"></i>Investment Value
+                                </h4>
+                                <p style="font-size: 0.95rem; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.8; margin-bottom: 1rem;">
+                                    As an edition sells, the price of the print increases by 20% for every 10% of the edition sold. This makes Jon Beck's Limited Edition Prints an excellent investment.
+                                </p>
+                                <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif;">
+                                    Once an edition is completely sold out, no more limited edition prints of that image will ever be produced.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div style="background-color: #f8f8f8; padding: 2rem; border-left: 4px solid #ffc107;">
+                                <h4 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                                    <i class="fas fa-boxes" style="color: #ffc107; margin-right: 0.5rem;"></i>Edition Sizes
+                                </h4>
+                                <ul style="list-style: none; padding: 0; color: #555555; font-family: 'Lato', sans-serif; line-height: 1.9;">
+                                    <li><strong>Limited Editions of 50</strong> – Most exclusive</li>
+                                    <li><strong>Limited Editions of 100</strong> – Balanced rarity</li>
+                                    <li><strong>Limited Editions of 250</strong> – Accessible investment</li>
+                                </ul>
+                                <p style="font-size: 0.9rem; color: #888888; font-family: 'Lato', sans-serif; margin-top: 1rem;">
+                                    Each print is individually numbered (e.g., 5/50, 12/100) and hand-signed by Jon Beck.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background-color: #f8f8f8; padding: 2rem; border-left: 4px solid #ffc107;">
+                        <h4 style="font-family: 'Poppins', sans-serif; font-weight: 700; color: #333333; margin-bottom: 1rem;">
+                            <i class="fas fa-shipping-fast" style="color: #ffc107; margin-right: 0.5rem;"></i>Worldwide Shipping & Packaging
+                        </h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 0.8rem; color: #555555; font-family: 'Lato', sans-serif;">
+                                <i class="fas fa-check" style="color: #ffc107; margin-right: 0.5rem;"></i><strong>Unframed prints:</strong> FREE worldwide shipping, 2-3 week delivery
+                            </li>
+                            <li style="margin-bottom: 0.8rem; color: #555555; font-family: 'Lato', sans-serif;">
+                                <i class="fas fa-check" style="color: #ffc107; margin-right: 0.5rem;"></i><strong>Framed prints:</strong> 4-6 week delivery from payment
+                            </li>
+                            <li style="margin-bottom: 0.8rem; color: #555555; font-family: 'Lato', sans-serif;">
+                                <i class="fas fa-check" style="color: #ffc107; margin-right: 0.5rem;"></i><strong>Professional packaging:</strong> Damage protection during transit
+                            </li>
+                            <li style="color: #555555; font-family: 'Lato', sans-serif;">
+                                <i class="fas fa-check" style="color: #ffc107; margin-right: 0.5rem;"></i><strong>Quality assurance:</strong> Each print is inspected before shipping
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta-section py-5" style="background-color: #b8b8b8;">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4" style="font-family: 'Playfair Display', serif; font-size: 2.2rem; color: #ffffff; font-style: italic;">
+                        Own a Piece of Art
+                    </h2>
+                    <p class="mb-4" style="font-size: 1.1rem; color: #ffffff; font-family: 'Lato', sans-serif;">
+                        Contact us to view available prints and place your order
+                    </p>
+                    <a href="contact.html" class="btn btn-outline-light" style="border-color: #4a4a6a; color: #ffffff; padding: 0.9rem 2.2rem; border-width: 2px; font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.08em; transition: all 0.4s ease; font-family: 'Lato', sans-serif; background: linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 100%); border-radius: 4px; box-shadow: 0 2px 8px rgba(74, 74, 106, 0.2); position: relative; overflow: hidden;" onmouseover="this.style.background='linear-gradient(135deg, #8b7db8 0%, #4a4a6a 100%)'; this.style.boxShadow='0 8px 20px rgba(74, 74, 106, 0.35)'; this.style.transform='translateY(-3px)';" onmouseout="this.style.background='linear-gradient(135deg, #4a4a6a 0%, #6b6b8e 100%)'; this.style.boxShadow='0 2px 8px rgba(74, 74, 106, 0.2)'; this.style.transform='translateY(0)';">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer-section bg-dark text-light py-5">
+        <div class="container-xxl">
+            <!-- Logo and branding row -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="footer-brand mb-3" style="display: flex; flex-direction: column; align-items: center; gap: 0.5rem; width: fit-content;">
+                        <img src="images/Frame.png" alt="Jon Beck" style="height: 50px; filter: brightness(0) invert(1);">
+                        <p class="text-white fw-bold" style="font-size: 0.9rem; margin: 0; letter-spacing: 0.05em; font-family: 'Poppins', sans-serif;">JON BECK</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main content row -->
+            <div class="row mb-5">
+                <!-- Address and Contact -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="footer-contact">
+                        <h6 class="fw-bold mb-3">Address:</h6>
+                        <p class="small text-white">Level 1, 265 Pittwater Road<br>Nowhere 2100</p>
+                        
+                        <h6 class="fw-bold mt-4 mb-3">Contact:</h6>
+                        <p class="small text-white">0411 132 843<br><a href="mailto:info@JBphotography.com" class="text-white text-decoration-none">info@JBphotography.com</a></p>
+                    </div>
+                </div>
+
+                <!-- Portfolio -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Portfolio</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="workshops.html" class="text-white text-decoration-none small">Workshops</a></li>
+                        <li class="mb-2"><a href="about.html" class="text-white text-decoration-none small">About Us</a></li>
+                        <li class="mb-2"><a href="shop.html" class="text-white text-decoration-none small">Shop Art</a></li>
+                        <li class="mb-2"><a href="contact.html" class="text-white text-decoration-none small">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Follow -->
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <h6 class="fw-bold mb-4">Follow</h6>
+                    <div class="social-links">
+                        <a href="#" class="text-light me-3"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-light me-3"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="bg-light opacity-10">
+
+            <!-- Footer bottom row -->
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p class="small text-white mb-0">© 2025 Jon Beck Photography. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="d-flex gap-3 justify-content-md-end">
+                        <a href="#" class="small text-white text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="small text-white text-decoration-none">Terms of Use</a>
+                        <a href="#" class="small text-white text-decoration-none">Cookie Preferences</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    <script>
+        // Hide loader when page is fully loaded
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('pageLoader').classList.add('hidden');
+            }, 500);
+        });
+        
+        // Add smooth scrolling and animations
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add scroll effect to navbar
+            window.addEventListener('scroll', function() {
+                const navbar = document.querySelector('.custom-navbar');
+                if (window.scrollY > 50) {
+                    navbar.style.backgroundColor = 'rgba(214, 214, 214, 0.95)';
+                    navbar.style.backdropFilter = 'blur(10px)';
+                } else {
+                    navbar.style.backgroundColor = 'var(--panel-gray)';
+                    navbar.style.backdropFilter = 'none';
+                }
+            });
+            
+            // Add fade-in animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+            
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+            
+            // Observe all sections
+            document.querySelectorAll('section').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease';
+                observer.observe(el);
+            });
+        });
+    </script>
+</body>
+</html>
