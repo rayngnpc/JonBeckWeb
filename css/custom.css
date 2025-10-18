@@ -188,6 +188,14 @@ a:hover {
     width: 100%;
 }
 
+.custom-navbar .navbar-nav .nav-link.active {
+    color: #ffc107 !important;
+}
+
+.custom-navbar .navbar-nav .nav-link.active::after {
+    width: 100%;
+}
+
 .custom-navbar .navbar-toggler {
     border: none;
     padding: 0.5rem;
